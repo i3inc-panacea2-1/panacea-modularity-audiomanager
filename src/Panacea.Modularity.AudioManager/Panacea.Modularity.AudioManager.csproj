@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="IAudioManager.cs" />
     <Compile Include="IAudioManagerPlugin.cs" />
+    <Compile Include="PanaceaServicesExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -53,6 +54,9 @@
       <Version>5.1.0</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Panacea.Core">
+      <Version>10.0.1</Version>
     </PackageReference>
     <PackageReference Include="Panacea.Modularity">
       <Version>0.0.2</Version>
