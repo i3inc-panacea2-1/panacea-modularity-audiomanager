@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Panacea.Modularity.AudioManager
 {
-    public interface IAudioManagerPlugin
+    public interface IAudioManagerPlugin: IPlugin
     {
         IAudioManager GetAudioManager();
     }
