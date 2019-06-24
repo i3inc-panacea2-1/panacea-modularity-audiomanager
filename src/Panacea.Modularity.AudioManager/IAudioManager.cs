@@ -2,7 +2,7 @@
 
 namespace Panacea.Modularity.AudioManager
 {
-    public interface IAudioManager:INotifyPropertyChanged
+    public interface IAudioManager : IPlugin, INotifyPropertyChanged
     {
         int SpeakersVolume { get; set; }
 
